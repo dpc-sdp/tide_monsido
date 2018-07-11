@@ -3,12 +3,6 @@
     "description": "Provides Monsido integration for Tide Drupal 8 distribution",
     "type": "drupal-module",
     "license": "GPL-2.0+",
-    "repositories": {
-        "drupal": {
-            "type": "composer",
-            "url": "https://packages.drupal.org/8"
-        }
-    },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
