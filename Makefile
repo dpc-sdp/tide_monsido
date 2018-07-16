@@ -128,10 +128,10 @@ rebuild: clean build
 ## Clean and fully re-build project dependencies.
 rebuild-full: clean-full build
 
-## Run Behat tests.
-test-behat:
-	$(call title,Running behat tests)
-	$(call exec,docker-compose exec cli vendor/bin/behat --format=progress_fail --strict --colors $(BEHAT_PROFILE) $(filter-out $@,$(MAKECMDGOALS)))
+## Run Behat tests. Commenting this out as there are no behat tests.
+#test-behat:
+#	$(call title,Running behat tests)
+#	$(call exec,docker-compose exec cli vendor/bin/behat --format=progress_fail --strict --colors $(BEHAT_PROFILE) $(filter-out $@,$(MAKECMDGOALS)))
 
 #-------------------------------------------------------------------------------
 # VARIABLES.
