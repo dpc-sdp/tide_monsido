@@ -60,16 +60,6 @@ aliases:
       - run:
           name: Enable current module and dependencies
           command: make install-module
-      - run:
-          name: Run tests
-          command: |
-            make test-behat || make test-behat -- --rerun
-      - run:
-          name: Copy artifacts
-          command: |
-            mkdir -p /tmp/artifacts/behat
-            docker cp $(docker-compose ps -q cli):/app/screenshots /tmp/artifacts/behat
-          when: always
       - store_artifacts:
           path: /tmp/artifacts
 
