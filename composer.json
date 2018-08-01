@@ -4,7 +4,7 @@
     "type": "drupal-module",
     "license": "GPL-2.0+",
     "require": {
-        "drupal/core": "8.5.3"
+        "drupal/core": "8.5.6"
     },
     "repositories": {
         "drupal": {
