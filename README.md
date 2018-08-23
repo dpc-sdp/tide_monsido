@@ -31,3 +31,8 @@ composer require dpc-sdp/tide_monsido
 
 * Go to `admin/config/system/tide_monsido`
 * The form provides options to configure monsido.
+
+# Caveats
+
+Tide Monsido is on the alpha release, use with caution. APIs are likely to change before the stable version, that there will be breaking changes and that we're not supporting it for external production sites at the moment.
+
