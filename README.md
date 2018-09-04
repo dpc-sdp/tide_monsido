@@ -22,6 +22,7 @@ This module provides integration with Monsido.
 
 # INSTALLATION
 Include the Tide Monsido module in your composer.json file
+
 ```bash
 composer require dpc-sdp/tide_monsido
 ```
