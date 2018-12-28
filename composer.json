@@ -2,5 +2,8 @@
     "name": "dpc-sdp/tide_monsido",
     "description": "Provides Monsido integration for Tide Drupal 8 distribution",
     "type": "drupal-module",
-    "license": "GPL-2.0-or-later"
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "dpc-sdp/tide_core": "dev-ci"
+    }
 }
