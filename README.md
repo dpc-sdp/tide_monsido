@@ -57,7 +57,6 @@ To start local development stack:
 - [tide_event](https://github.com/dpc-sdp/tide_event)
 - [tide_landing_page](https://github.com/dpc-sdp/tide_landing_page)
 - [tide_media](https://github.com/dpc-sdp/tide_media)     
-- [tide_monsido](https://github.com/dpc-sdp/tide_monsido) 
 - [tide_news](https://github.com/dpc-sdp/tide_news)       
 - [tide_page](https://github.com/dpc-sdp/tide_page)       
 - [tide_search](https://github.com/dpc-sdp/tide_search)   
