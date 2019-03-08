@@ -1,5 +1,5 @@
 # Tide Monsido
-Page content type for [Tide](https://github.com/dpc-sdp/tide) distribution for [Drupal 8](https://github.com/dpc-sdp)
+[Monsido](https://monsido.com/) integration for [Tide](https://github.com/dpc-sdp/tide) distribution for [Drupal 8](https://github.com/dpc-sdp)
 
 Tide is a Drupal 8 distribution focused on delivering an API first, headless Drupal content administration site.
 
@@ -10,11 +10,8 @@ Tide is a Drupal 8 distribution focused on delivering an API first, headless Dru
 [![Pull Requests](https://img.shields.io/github/issues-pr/dpc-sdp/tide_page.svg)](https://github.com/dpc-sdp/tide_monsido/pulls)
 
 ## What is in this package
-- content type
-- fields
-- blocks
-- views
-- JSONAPI module integration
+- configuration form
+- integration configuration
 
 ## Installation
 To install this package, add this custom repository to `repositories` section of
@@ -23,10 +20,10 @@ your `composer.json`:
 ```json
 {
   "repositories": {        
-      "dpc-sdp/tide_page": {
+      "dpc-sdp/tide_monsido": {
           "type": "vcs",
           "no-api": true,
-          "url": "https://github.com/dpc-sdp/tide_page.git"
+          "url": "https://github.com/dpc-sdp/tide_monsido.git"
       }
   }
 }
@@ -34,7 +31,7 @@ your `composer.json`:
 
 Require this package as any other Composer package:
 ```bash
-composer require dpc/tide_page 
+composer require dpc/tide_monsido 
 ``` 
 
 ## Support
