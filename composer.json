@@ -4,6 +4,6 @@
     "type": "drupal-module",
     "license": "GPL-2.0-or-later",
     "require": {
-        "dpc-sdp/tide_core": "^2.0.0"
+        "dpc-sdp/tide_core": "dev-feature/SDPA-5396-drupalcore-9 as 2.0.14"
     }
 }
