@@ -2,4 +2,4 @@ name: 'Tide Monsido'
 description: 'Provides Monsido integration.'
 type: module
 package: Tide
-core: 8.x
+core_version_requirement: ^8.9 || ^9
